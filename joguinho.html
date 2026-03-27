@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <title>Joguinho 🎯</title>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/joguinho.css"/>
+</head>
+<body>
+
+  <div class="mesh"></div>
+  <div class="petals-bg" id="petals"></div>
+
+  <div class="wrapper">
+
+    <div class="top-bar">
+      <a href="index.html" class="back-btn">← Voltar</a>
+      <div class="score-box">Acertos: <span id="score">0</span></div>
+    </div>
+
+    <h1>Arco e <em>Flecha</em> 🌸</h1>
+    <p class="instructions">Toque no alvo para acertar! 🎯</p>
+
+    <div class="game-area" id="gameArea">
+      <canvas id="gameCanvas"></canvas>
+    </div>
+
+  </div>
+
+  <!-- Message popup -->
+  <div class="message-popup" id="popup">
+    <span class="popup-emoji" id="popupEmoji">💕</span>
+    <div class="popup-text" id="popupText">I Love You</div>
+    <div class="popup-sub" id="popupSub">+1 coração</div>
+  </div>
+
+  <script src="js/petals.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
