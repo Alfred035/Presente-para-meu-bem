@@ -35,7 +35,7 @@
     { flag: "🇵🇭", text: "Mahal kita",                         lang: "Filipino" },
     { flag: "🇲🇾", text: "Saya cinta awak",                    lang: "Malaio" },
     { flag: "🇨🇦", text: "Je t'aime tant",                     lang: "Francês Canadense" },
-    { flag: "🏴󠁧󠁢󠁷󠁬󠁳󠁿", text: "Rwy'n dy garu di",               lang: "Galês" },
+    { flag: "CY", text: "Rwy'n dy garu di",               lang: "Galês" },
     { flag: "🇮🇪", text: "Tá grá agam ort",                    lang: "Irlandês" },
   ];
 
